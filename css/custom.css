@@ -52,6 +52,7 @@
     ul.socials {
         float: right;
         margin-top: 20px;
+        margin-bottom: 0;
         text-align: center;
     }
     .carousel-caption {
