@@ -99,8 +99,31 @@
                   <li class="active single"> <a href="http://blog.sciamlab.com"> BLOG</a>
                   </li>
                 </ul>
+              </div> <!-- main menu div-->
+              <div id="user-snip-container" class="nav-collapse" style="float:right;">
               </div>
-            </div>
+              <script>
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("user-snip-container").innerHTML=xmlhttp.responseText;
+    }
+}
+xmlhttp.open("GET","http://opendatahub.sciamlab.com/opendatahub/page_user_frag.html",true);
+xmlhttp.send();
+              
+              </script>
+            </div> <!-- menu container bar-->
           </div>
         </div>
       </div>
