@@ -7,6 +7,7 @@ postimage: /img/blog06.png
 layout: post
 date: 2013-12-19 09:22
 author: Alessio
+comments: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\

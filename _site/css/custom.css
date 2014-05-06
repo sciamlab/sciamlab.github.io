@@ -52,6 +52,7 @@
     ul.socials {
         float: right;
         margin-top: 20px;
+        margin-bottom: 0;
         text-align: center;
     }
     .carousel-caption {
@@ -236,7 +237,7 @@
     padding: 51px 35px 35px;
     }
     .logo {
-        margin: 27px 0 27px 20px;
+        margin: 5px 0 0 20px;
     }
     .logo .logo {
         margin: 0;
@@ -507,7 +508,7 @@
         padding: 51px 35px 35px;
     }
     .logo {
-        margin: 27px 0 27px 20px;
+        margin: 5px 0 0 20px;
     }
     .logo .logo {
         margin-left: 0;

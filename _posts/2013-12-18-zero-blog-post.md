@@ -7,6 +7,7 @@ postimage: /img/blog04.jpg
 layout: post
 date: 2013-12-18 15:50
 author: Alessio
+comments: true
 ---
 
 Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit a\
