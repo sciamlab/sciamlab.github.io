@@ -3,7 +3,7 @@ title: Zero blog post
 tags: [sample,beginner]
 categories: [Open Data]
 thumbimg: /img/blog-widget02.jpg
-postimage: /img/blog04.jpg
+postimage: /img/blog00.jpg
 layout: post
 date: 2013-12-18 15:50
 author: Alessio
