@@ -21,25 +21,23 @@ layout: default
 							<!-- post main loop -->
 							{% for post in site.posts limit:3 %}
                                 <div class="post-item">
-                                    <h2>{{ post.title}}</h2>
+                                    <h2 style="font-weigth:bold;">{{ post.title}}</h2>
                                     <img alt="" src="" />
-                                    <p class="post-description">{{ post.excerpt }}</p>
+                                    {{ post.excerpt }}
                                     <a class="post-more" href="{{ post.url }}">Continue Reading&nbsp;&raquo;</a>
                                     <div class="post-item-panel">
                                         <ul>
                                             <li class="date">
                                               <p><i class="icon-calendar"></i>{{ post.date | date_to_long_string}}</p></li>
                                             <li><p><i class="icon-user"></i>{{ post.suthor }}</p></li>
-                                            <li><p><i class="icon-tags"></i><a href="">marketing</a>, <a href="">SEO</a></p></li>
+                                            <li><p><i class="icon-tags"></i></p></li>
                                             <li class="comments"><p><i class="icon-comments-alt"></i><span><a class="post-more" href="{{ post.url }}#disqus_thread">Continue Reading</a></span></p></li>
                                         </ul>
                                     </div>
                                 </div>
 							{% endfor %}
                             </div>
-
 							{% include sidebar.html %}
- 
                         </div>
                     </div>
  
