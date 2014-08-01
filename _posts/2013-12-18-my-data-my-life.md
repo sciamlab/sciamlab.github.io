@@ -8,6 +8,9 @@ layout: post
 date: 2013-12-18 15:50
 author: Alessio
 comments: true
+tags:
+- privacy
+- personal_data
 ---
 
 In everyone's life experiences mediated by software occupy
