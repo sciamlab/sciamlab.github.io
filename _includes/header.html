@@ -74,7 +74,7 @@
                       href="#menu1"> DATA HUB </a>
                     <ul class="dropdown-menu">
                       <li><a href="http://www.sciamlab.com/opendatahub">Open Data Hub Italia</a></li>
-                      <li><a href="http://www.sciamlab.com/amaca">Developers Resources</a></li>
+                      <li><a href="http://www.sciamlab.com/amaca">Amaca Platform</a></li>
                     </ul>
                   </li>
                   <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown"
@@ -88,29 +88,6 @@
                   </li>
                 </ul>
               </div> <!-- main menu div-->
-              <div id="user-snip-container" class="nav-collapse" style="float:right;">
-              </div>
-              <script>
-var xmlhttp;
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.onreadystatechange=function()
-  {
-  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-    {
-    document.getElementById("user-snip-container").innerHTML=xmlhttp.responseText;
-    }
-}
-xmlhttp.open("GET","http://opendatahub.sciamlab.com/opendatahub/page_user_frag.html",true);
-xmlhttp.send();
-              
-              </script>
             </div> <!-- menu container bar-->
           </div>
         </div>
